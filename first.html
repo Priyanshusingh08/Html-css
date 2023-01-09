@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var jsonobject={"name":"Priyanshu","age":22}
+        jsonobject.age=24;
+
+        document.write(jsonobject.name+"--"+jsonobject.age);
+
+        var jsonstr=JSON.stringify(jsonobject);
+        document.write(jsonstr+"<br>");
+
+        var obj= JSON.parse('{"firstnamr":"Ram","lastname":"Kumar"}');
+
+        document.write(obj.lastname);
+
+        
+
+    </script>
+    
+</body>
+</html>
